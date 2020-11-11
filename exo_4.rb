@@ -8,6 +8,5 @@ while(note.upcase != 'STOP') #Upcase the variable. So if the user enters stop, w
   if (note.match(/[0-9]/)) #If the variable is a number
     notes << note.to_f #add the number converted to an float into the array
   end
-  print notes
 end
 puts "Il y a eu #{notes.length()} notes saisie, la moyenne étant de #{notes.sum / notes.length()}" 
