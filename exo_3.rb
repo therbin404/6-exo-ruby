@@ -9,5 +9,5 @@ def hello_user(name = '', nickname = '') #if name and nickname aren't not valued
 end
 
 puts 'Entrez un nom (première ligne) et/ou un surnom (deuxième ligne):'
-names = hello_user(gets.chomp, gets.chomp) #chomp to remove the carriage return
+names = hello_user(gets.chomp, gets.chomp) #chomp to remove the carriage return. gets passed directly in the method
 puts "Bonjour #{names}"
